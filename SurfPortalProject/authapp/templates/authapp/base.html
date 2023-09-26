@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}SurfApp{% endblock %}</title>
+    <!-- Add your CSS stylesheets and JavaScript files here -->
+    <link rel="stylesheet" href="{% static 'authapp/css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'surf-spots' %}">Surf Spots</a></li>
+                <li><a href="{% url 'lessons' %}">Lessons</a></li>
+                <!-- Add more navigation links as needed -->
+            </ul>
+        </nav>
+        <div class="logo">
+            <a href="{% url 'home' %}">SurfApp</a>
+        </div>
+    </header>
+    
+    <main>
+        {% block content %}
+        <!-- Content of child templates will be placed here -->
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; {% now "Y" %} SurfApp</p>
+    </footer>
+</body>
+</html>
