@@ -19,7 +19,7 @@ Welcome to the Surf Portal web application repository! This project aims to revo
 
 - **How to Get to Surf Spots:** Detailed information on how to reach surf spots is provided.
 
-- **Suggested Locations Given Current Conditions:** Users receive suggestions for suitable surf spots based on real-time conditions.
+- **Suggested Locations Given Current Conditions:** Users receive suggestions for suitable surf spots based on real-time conditions. Find out what the best spot of the day is, when the best time to surf is.
 
 - **Book a Lesson:** Users can book surf lessons, view conditions, check surf school reviews, and get pricing information.
 
@@ -31,6 +31,6 @@ Welcome to the Surf Portal web application repository! This project aims to revo
 
 - **Community and Reviews:** Users can leave reviews, participate in discussions, and share their experiences.
 
-- **Mobile App:** We're also developing a mobile app for real-time updates on surf conditions.
-
 - **Monetization:** We have multiple revenue streams, including commissions, premium services, and advertising.
+  
+- **Car Pooling:** Find out when and where people are surfing and join them.
